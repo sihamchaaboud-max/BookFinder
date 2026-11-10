@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Dataset volumineux
+dataset/images/*
+!dataset/images/.gitkeep
+
+# Caractéristiques extraites
+features/*
+!features/.gitkeep
+
+# Modèles Deep Learning
+*.h5
+*.keras
+*.tflite
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
